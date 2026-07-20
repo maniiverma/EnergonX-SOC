@@ -1,0 +1,18 @@
+[
+  {
+    "status": "COMPLETED",
+    "target": "google.com",
+    "bugsFound": 1,
+    "findings": [
+      {
+        "id": "EX-HSTS-3931",
+        "vulnName": "Missing Strict-Transport-Security (HSTS) Protection Flag",
+        "severity": "HIGH",
+        "endpoint": "https://google.com/",
+        "businessLoss": "High corporate exposure. The infrastructure allows cleartext HTTP communication down-grades, exposing users to cryptographic session hijacking and automated credential interception.",
+        "remediation": "Configure the web server routing gateway to append the 'Strict-Transport-Security: max-age=63072000; includeSubDomains; preload' header properties natively on all responses."
+      }
+    ],
+    "timestamp": "2026-06-06T11:22:07.391Z"
+  }
+]

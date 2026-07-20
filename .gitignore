@@ -1,0 +1,27 @@
+# Ignores all node_modules in root, backend, and frontend
+node_modules/
+**/node_modules/
+
+# Local Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database & Local storage files
+*.db
+*.sqlite
+*.sqlite3
+arp_security_vault.db
+
+# Build output directories
+dist/
+build/
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS & VS Code files
+.DS_Store
+.vscode/
