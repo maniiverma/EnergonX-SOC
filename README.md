@@ -257,7 +257,7 @@ Before public or enterprise deployment, add proper authentication, authorization
 
 ## Author
 
-**Developer:** Manpreet Verma  
+**Developer:** Team Decepticons   
 **GitHub:** [@maniiverma](https://github.com/maniiverma)  
 **Project:** EnergonX SOC Platform
 
